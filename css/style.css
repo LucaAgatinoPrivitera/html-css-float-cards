@@ -69,10 +69,10 @@ section{
     font-size: 1.3rem;
 }
 
-/* Per qualche stregoneria non funziona */
+
 @media (max-width:1200px){
 
-.section{
+.cards{
     max-width: 600px;
     margin: auto;
 }
