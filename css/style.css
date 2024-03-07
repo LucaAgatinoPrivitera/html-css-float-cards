@@ -21,6 +21,7 @@ body{
     margin: auto;
 }
 #infoteam{
+    margin: 0 50px;
     text-align: center;
 }
 
@@ -44,7 +45,10 @@ section{
 .clearfix{
     overflow: auto;
 }
-
+.cards{
+    max-width: 2000px;
+    margin: auto;
+}
 .prof_pic{
     float: left;
     margin-right: 1rem;
@@ -65,3 +69,11 @@ section{
     font-size: 1.3rem;
 }
 
+/* Per qualche stregoneria non funziona */
+@media (max-width:1200px){
+
+.section{
+    max-width: 600px;
+    margin: auto;
+}
+}
