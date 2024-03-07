@@ -26,8 +26,25 @@ body{
 section{
     margin: 2rem auto;
     display: block;
+    justify-content: center;
 }
-.container{
+.container_left{
+    background-color: rgb(14, 9, 34);
+    box-shadow: 1px 1px 20px #000000;
+    height: 200px;
+    display: table;
+    padding-right: 5rem;
+    float: left;
+}
+.container_middle{
+    background-color: rgb(14, 9, 34);
+    box-shadow: 1px 1px 20px #000000;
+    height: 200px;
+    display: table;
+    padding-right: 5rem;
+    float: right;
+}
+.container_right{
     background-color: rgb(14, 9, 34);
     box-shadow: 1px 1px 20px #000000;
     height: 200px;
@@ -44,6 +61,7 @@ section{
 .infomember > *{
     padding: 20px;
     color: white;
+    justify-content: center;
 }
 
 .infomember h2{
@@ -56,3 +74,4 @@ section{
     color: rgb(53, 151, 243);
     font-size: 1.3rem;
 }
+
