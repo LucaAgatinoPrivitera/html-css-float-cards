@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
 }
 
 header{
@@ -9,13 +10,13 @@ header{
 }
 header h1{
     margin: 2rem;
-    font-family: "Madimi One", sans-serif;
+    /* font-family: "Madimi One", sans-serif; non serve più, ho messo sopra */
     text-align: center;
     color: rgb(221, 11, 116);
 }
 
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font cambiata sopra */
     max-width: 1200px;
     margin: auto;
 }
@@ -23,37 +24,27 @@ body{
     text-align: center;
 }
 
+/* Container con le cards */
 section{
     margin: 2rem auto;
     display: block;
     justify-content: center;
 }
-.container_left{
+
+.container{
     background-color: rgb(14, 9, 34);
     box-shadow: 1px 1px 20px #000000;
     height: 200px;
     display: table;
-    padding-right: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
     float: left;
-}
-.container_middle{
-    background-color: rgb(14, 9, 34);
-    box-shadow: 1px 1px 20px #000000;
-    height: 200px;
-    display: table;
-    padding-right: 5rem;
-    float: right;
-}
-.container_right{
-    background-color: rgb(14, 9, 34);
-    box-shadow: 1px 1px 20px #000000;
-    height: 200px;
-    display: table;
-    padding-right: 5rem;
+    width: 500px;
 }
 .clearfix{
     overflow: auto;
 }
+
 .prof_pic{
     float: left;
     margin-right: 1rem;
@@ -63,7 +54,6 @@ section{
     color: white;
     justify-content: center;
 }
-
 .infomember h2{
     font-weight: 800;
 }
